@@ -1,0 +1,598 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 NOV 2016 16:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**HW8.tex
+(./HW8.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2015/03/04 v2.20.2
+\linespacing=\dimen102
+\normalparindent=\dimen103
+\normaltopskip=\skip41
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip42
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen104
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count79
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count80
+\leftroot@=\count81
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count82
+\DOTSCASE@=\count83
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count84
+\c@MaxMatrixCols=\count85
+\dotsspace@=\muskip10
+\c@parentequation=\count86
+\dspbrk@lvl=\count87
+\tag@help=\toks15
+\row@=\count88
+\column@=\count89
+\maxfields@=\count90
+\andhelp@=\toks16
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks17
+\multlinegap=\skip43
+\multlinetaggap=\skip44
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 388.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\copyins=\insert233
+\abstractbox=\box28
+\listisep=\skip45
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
+\c@figure=\count97
+\c@table=\count98
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\captionindent=\dimen113
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks24
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks26
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count102
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks27
+\float@box=\box29
+\@float@everytoks=\toks28
+\@floatcapt=\box30
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/python/python.sty
+Package: python 2007/06/07 v0.21 Python in LaTeX
+\@out=\write3
+\@module=\write4
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count104
+\lst@gtempboxa=\box31
+\lst@token=\toks29
+\lst@length=\count105
+\lst@currlwidth=\dimen124
+\lst@column=\count106
+\lst@pos=\count107
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count108
+\lst@lineno=\count109
+\lst@maxwidth=\dimen127
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count110
+\lst@skipnumbers=\count111
+\lst@framebox=\box32
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(./HW8.aux)
+\openout1 = `HW8.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=1.12738pt
+* \headheight=8.0pt
+* \headsep=14.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=90.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=7.0pt plus 11.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen128
+\scratchbox=\box33
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen129
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks31
+)
+\c@lstlisting=\count118
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+ [2]
+<P2_formulation.png, id=21, 732.7375pt x 343.2825pt>
+File: P2_formulation.png Graphic file (type png)
+ <use P2_formulation.png>
+Package pdftex.def Info: P2_formulation.png used on input line 132.
+(pdftex.def)             Requested size: 366.36786pt x 171.64082pt.
+
+<P2.png, id=23, 465.74pt x 387.4475pt>
+File: P2.png Graphic file (type png)
+ <use P2.png>
+Package pdftex.def Info: P2.png used on input line 139.
+(pdftex.def)             Requested size: 215.0023pt x 178.86058pt.
+ [3 <./P2_formulation.png>]
+<eigenvectors/eigenvector_1_fullint.png, id=28, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_1_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_1_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_1_fullint.png used on input l
+ine 162.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_2_fullint.png, id=29, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_2_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_2_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_2_fullint.png used on input l
+ine 168.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_3_fullint.png, id=30, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_3_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_3_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_3_fullint.png used on input l
+ine 174.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_4_fullint.png, id=31, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_4_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_4_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_4_fullint.png used on input l
+ine 180.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_5_fullint.png, id=32, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_5_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_5_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_5_fullint.png used on input l
+ine 190.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_6_fullint.png, id=33, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_6_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_6_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_6_fullint.png used on input l
+ine 196.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_7_fullint.png, id=34, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_7_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_7_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_7_fullint.png used on input l
+ine 202.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_8_fullint.png, id=35, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_8_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_8_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_8_fullint.png used on input l
+ine 208.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+ [4 <./P2.png> <./eigenvectors/eigenvector_1_fullint.png (PNG copy)> <./eigenve
+ctors/eigenvector_2_fullint.png (PNG copy)> <./eigenvectors/eigenvector_3_fulli
+nt.png (PNG copy)> <./eigenvectors/eigenvector_4_fullint.png (PNG copy)>]
+<eigenvectors/eigenvector_9_fullint.png, id=40, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_9_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_9_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_9_fullint.png used on input l
+ine 218.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_10_fullint.png, id=41, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_10_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_10_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_10_fullint.png used on input 
+line 224.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_11_fullint.png, id=42, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_11_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_11_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_11_fullint.png used on input 
+line 230.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_12_fullint.png, id=43, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_12_fullint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_12_fullint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_12_fullint.png used on input 
+line 236.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_1_redint.png, id=44, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_1_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_1_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_1_redint.png used on input li
+ne 249.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_2_redint.png, id=45, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_2_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_2_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_2_redint.png used on input li
+ne 255.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_3_redint.png, id=46, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_3_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_3_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_3_redint.png used on input li
+ne 261.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_4_redint.png, id=47, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_4_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_4_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_4_redint.png used on input li
+ne 267.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+ [5 <./eigenvectors/eigenvector_5_fullint.png (PNG copy)> <./eigenvectors/eigen
+vector_6_fullint.png (PNG copy)> <./eigenvectors/eigenvector_7_fullint.png (PNG
+ copy)> <./eigenvectors/eigenvector_8_fullint.png (PNG copy)> <./eigenvectors/e
+igenvector_9_fullint.png (PNG copy)> <./eigenvectors/eigenvector_10_fullint.png
+ (PNG copy)> <./eigenvectors/eigenvector_11_fullint.png (PNG copy)> <./eigenvec
+tors/eigenvector_12_fullint.png (PNG copy)>]
+<eigenvectors/eigenvector_5_redint.png, id=51, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_5_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_5_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_5_redint.png used on input li
+ne 277.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_6_redint.png, id=52, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_6_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_6_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_6_redint.png used on input li
+ne 283.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_7_redint.png, id=53, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_7_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_7_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_7_redint.png used on input li
+ne 289.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_8_redint.png, id=54, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_8_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_8_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_8_redint.png used on input li
+ne 295.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_9_redint.png, id=55, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_9_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_9_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_9_redint.png used on input li
+ne 305.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_10_redint.png, id=56, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_10_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_10_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_10_redint.png used on input l
+ine 311.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_11_redint.png, id=57, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_11_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_11_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_11_redint.png used on input l
+ine 317.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+
+<eigenvectors/eigenvector_12_redint.png, id=58, 562.2606pt x 421.575pt>
+File: eigenvectors/eigenvector_12_redint.png Graphic file (type png)
+
+<use eigenvectors/eigenvector_12_redint.png>
+Package pdftex.def Info: eigenvectors/eigenvector_12_redint.png used on input l
+ine 323.
+(pdftex.def)             Requested size: 107.50114pt x 80.60182pt.
+ [6 <./eigenvectors/eigenvector_1_redint.png (PNG copy)> <./eigenvectors/eigenv
+ector_2_redint.png (PNG copy)> <./eigenvectors/eigenvector_3_redint.png (PNG co
+py)> <./eigenvectors/eigenvector_4_redint.png (PNG copy)> <./eigenvectors/eigen
+vector_5_redint.png (PNG copy)> <./eigenvectors/eigenvector_6_redint.png (PNG c
+opy)> <./eigenvectors/eigenvector_7_redint.png (PNG copy)> <./eigenvectors/eige
+nvector_8_redint.png (PNG copy)>]
+[7 <./eigenvectors/eigenvector_9_redint.png (PNG copy)> <./eigenvectors/eigenve
+ctor_10_redint.png (PNG copy)> <./eigenvectors/eigenvector_11_redint.png (PNG c
+opy)> <./eigenvectors/eigenvector_12_redint.png (PNG copy)>] (./HW8.aux) ) 
+Here is how much of TeX's memory you used:
+ 5407 strings out of 493089
+ 75247 string characters out of 6134842
+ 263458 words of memory out of 5000000
+ 8634 multiletter control sequences out of 15000+600000
+ 11432 words of font info for 44 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 42i,8n,42p,340b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on HW8.pdf (7 pages, 960357 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+

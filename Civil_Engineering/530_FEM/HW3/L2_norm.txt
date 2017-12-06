@@ -1,0 +1,14 @@
+For 2 nodes we get the  L^2 norm value of 0.577377
+For 3 nodes we get the  L^2 norm value of 0.366472
+For 4 nodes we get the  L^2 norm value of 0.284455
+For 5 nodes we get the  L^2 norm value of 0.248712
+For 6 nodes we get the  L^2 norm value of 0.233457
+For 7 nodes we get the  L^2 norm value of 0.227346
+For 8 nodes we get the  L^2 norm value of 0.225086
+For 9 nodes we get the  L^2 norm value of 0.224316
+For 10 nodes we get the  L^2 norm value of 0.224074
+For 11 nodes we get the  L^2 norm value of 0.224003
+For 12 nodes we get the  L^2 norm value of 0.223984
+For 13 nodes we get the  L^2 norm value of 0.223979
+For 14 nodes we get the  L^2 norm value of 0.223978
+For 15 nodes we get the  L^2 norm value of 0.223978

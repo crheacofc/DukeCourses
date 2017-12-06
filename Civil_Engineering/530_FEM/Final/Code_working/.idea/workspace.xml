@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82cc2762-1260-4d91-ace8-c862f3164d23" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../630_NonlinearFEM/2d_FEM/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/driver_poisson_editing.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/poissonEditingJacobi.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/readInputData.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/sizeEditRegion.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/suptitle.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/visEditedImage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/code/visInputImages.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/data/airplane_terrain.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/poisson-editing/data/writing_wall.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/FEM Final Proposal.pages" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/FEM Final Proposal.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/.idea/Code.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/Assembly/assembly.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/BC/EBC.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/Elements/elements.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/kernel/Local_Matrices.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/matlab/fem_1x1.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/matlab/fem_mini.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/matlab/nodes_from_mat_squares.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/mesh_connectivity_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/mesh_connectivity_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/mesh_nodes_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/mesh_nodes_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/read_mesh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/sides_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/mesh/sides_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/outputs/F.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/outputs/K.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/outputs/K_elemental.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/outputs/f_elemental.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/outputs/ijv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code/src/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/.idea/Code.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/Assembly/assembly (clr56@duke.edu).py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/Assembly/assembly.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/BC/EBC.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/Elements/elements.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/kernel/Local_Matrices.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/basic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/basic_con.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/basic_sides.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/connect_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/make_mesh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/matlab/fem_1x1.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/matlab/fem_mini.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/matlab/nodes_from_mat_squares.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/mesh_connectivity_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/mesh_connectivity_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/mesh_nodes_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/mesh_nodes_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/mesh_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/read_mesh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/sides_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/sides_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/mesh/sides_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/F.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/K (clr56@duke.edu).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/K.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/K_elemental.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/basic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/f_elemental.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/outputs/ijv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_basic/src/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/.idea/Code.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/Assembly/assembly (clr56@duke.edu).py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/Assembly/assembly.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/BC/EBC.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/Elements/elements.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/kernel/Local_Matrices.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/basic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/basic_con.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/basic_sides.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/connect_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/make_mesh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/matlab/fem_1x1.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/matlab/fem_mini.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/matlab/nodes_from_mat_squares.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/mesh_connectivity_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/mesh_connectivity_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/mesh_nodes_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/mesh_nodes_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/mesh_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/read_mesh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/sides.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/sides_1x1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/sides_mini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/mesh/sides_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/F.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/K (clr56@duke.edu).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/K.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/K_elemental.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/basic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/basic_con.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/basic_sides.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/f_elemental.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/ijv.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/outputs/sides.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Code_working/src/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/FEM_Final" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/.idea/Write-up.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final 2.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final 2.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final 2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final 2.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final 2.toc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final.toc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/Final_carter_rhea.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/L^2_error_nonstabilized.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/L^2_error_stabilized.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/Final/Write-up/src/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW2/HW_2_Fall_2016.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW2/L2_norm_p2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW2/exact_vs_approximated.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW2/exact_vs_approximated_sigma.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW2/homework2_1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/H3P1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/H3P2.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/L2_norm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/U_Uprimed round 2.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/U_Uprimed.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/exp(-10*x)_and_approx.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW3/shape_functions.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/H4P1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/H4P2.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/H4P2.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/H4P2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/H4P2.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/H4P2.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/L2_norm_p4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/exact_vs_approximated.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW4/exact_vs_approximated_sigma.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/1mm_xx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/1mm_yy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/2mm_xx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/2mm_yy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/homework5.mechdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/x-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/x-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/y-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW5/y-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/H6P1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/H6P2.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/HW6_writeup.pages" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/HW_6 (1).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/table_of_stress_HW6.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/table_of_stress_HW6.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/table_of_stress_HW6.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW6/table_of_stress_HW6.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/.idea/HW7.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW7.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW7.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW7.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW7.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW_7_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW_7_3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW_7_4.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW_7_4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW_7_4_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/HW_7_4_d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/latex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW7/problem1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW#8.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW8.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW8.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW8.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW8.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW8.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/HW8P1.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/FE_Script.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/Grad_N_Mapped_Q4.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/Shape_func.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/applyEBC.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/assembleStiffnessMatrix.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/detJSideQ4.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/getElementCoordinates.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/getElementForce.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/getForceFromGravity.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/getMeshSimple.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/getStiffnessMatrixQ4_PS.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/get_B_plane_stress.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/hw8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/hw8y.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/plotANSYS.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/plotMesh.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/Matlab_routines/plotdeformed.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/P2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/P2_formulation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_10_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_10_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_11_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_11_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_12_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_12_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_1_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_1_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_2_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_2_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_3_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_3_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_4_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_4_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_5_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_5_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_6_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_6_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_7_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_7_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_8_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_8_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_9_fullint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/HW8/eigenvectors/eigenvector_9_redint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/html/homework2_1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/html/homework2_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/html/homework2_1_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/table_of_stress.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/table_of_stress.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/table_of_stress.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/table_of_stress.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/530_FEM/table_of_stress_HW6.synctex.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D.xcodeproj/project.xcworkspace/xcuserdata/crhea.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D.xcodeproj/xcuserdata/crhea.xcuserdatad/xcschemes/FE_1D.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D.xcodeproj/xcuserdata/crhea.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D_update/FE_1D/FE_1D.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D_update/FE_1D/FE_1D.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D_update/FE_1D/FE_1D.xcodeproj/project.xcworkspace/xcuserdata/crhea.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D_update/FE_1D/FE_1D.xcodeproj/xcuserdata/crhea.xcuserdatad/xcschemes/FE_1D.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D_update/FE_1D/FE_1D.xcodeproj/xcuserdata/crhea.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_1D/FE_1D_update/FE_1D/FE_1D/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_2D/FE_2D.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_2D/FE_2D.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_2D/FE_2D.xcodeproj/project.xcworkspace/xcuserdata/crhea.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_2D/FE_2D.xcodeproj/xcuserdata/crhea.xcuserdatad/xcschemes/FE_2D.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_2D/FE_2D.xcodeproj/xcuserdata/crhea.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/FE_2D/FE_2D/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/.idea/Misc.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/.ipynb_checkpoints/Plotting_Vectors-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/Plotting_Vectors.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Math/Misc/integration.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/main.cpp.o" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/grader" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/grader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/Project3/pf_fracture" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Parallel_Computing/Project3/pf_fracture" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/CXX.includecache" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/build.make" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/depend.internal" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/CMakeFiles/grader.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/grader.cbp" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/cmake-build-debug/grader.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/main.cpp" afterPath="$PROJECT_DIR$/../../../../Comp_Sci/Misc/C++/grader/main.cpp" />
+    </list>
+    <ignored path="Code.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Code_working$main.coverage" NAME="main Coverage Results" MODIFIED="1491957034918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Code" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <folding>
+                <element signature="e#239#270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="make_mesh.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mesh/make_mesh.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-67">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EBC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BC/EBC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assembly.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assembly/assembly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="e#315#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Local_Matrices.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="89" column="51" lean-forward="true" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+              <folding>
+                <element signature="e#515#533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elements.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../../Misc/integration.py" />
+        <option value="$PROJECT_DIR$/mesh/read_mesh.py" />
+        <option value="$PROJECT_DIR$/BC/EBC.py" />
+        <option value="$PROJECT_DIR$/make_mesh.py" />
+        <option value="$PROJECT_DIR$/Elements/elements.py" />
+        <option value="$PROJECT_DIR$/mesh/make_mesh.py" />
+        <option value="$PROJECT_DIR$/kernel/Local_Matrices.py" />
+        <option value="$PROJECT_DIR$/Assembly/assembly.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="282" />
+    <option name="y" value="41" />
+    <option name="width" value="1280" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code_working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code_working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code_working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code_working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mesh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mesh" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Local_Matrices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kernel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kernel/Local_Matrices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assembly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assembly" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assembly/assembly.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BC/EBC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="make_mesh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mesh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mesh/make_mesh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Code" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Local_Matrices" />
+      <item index="2" class="java.lang.String" itemvalue="Python.assembly" />
+      <item index="3" class="java.lang.String" itemvalue="Python.EBC" />
+      <item index="4" class="java.lang.String" itemvalue="Python.make_mesh" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.make_mesh" />
+        <item index="2" class="java.lang.String" itemvalue="Python.EBC" />
+        <item index="3" class="java.lang.String" itemvalue="Python.assembly" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Local_Matrices" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82cc2762-1260-4d91-ace8-c862f3164d23" name="Default" comment="" />
+      <created>1477924971920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477924971920</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="282" y="41" width="1280" height="730" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924527" sideWeight="0.5019136" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16641453" sideWeight="0.4980864" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25403818" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly/assembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#315#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly/assembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#315#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly/assembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#315#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly/assembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#315#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Misc/integration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/sides_mini.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/mesh_connectivity_mini.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/read_mesh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/make_mesh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BC/EBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembly/assembly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#315#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#239#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/Local_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="89" column="51" lean-forward="true" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+          <folding>
+            <element signature="e#515#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19444445" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

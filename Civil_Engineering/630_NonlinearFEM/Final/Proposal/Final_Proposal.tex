@@ -1,0 +1,22 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Carter Rhea}
+\title{Non-linear Finite Element Method Final Project Proposal}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+MOOSE, a massively parallel, adaptive finite element platform developed at Idaho National Laboratory, allows users to develop code to handle nonlinear systems. I propose to use MOOSE to study the evolution of  fracture in nonlinear elastic systems. Our lab has been developing a continuum model to examine fracture in linearly elastic systems using the phase field modeling scheme. We have one model which simply looks at cracks due to mode 1 and mode 2 fracture, while we also simulate fluid-driven fracture. Our current simulations take advantage of phase field modeling to follow crack propagation. I propose to continue using phase field for fracture evolution; However, in contrast to our current model, I would decouple the damage field (phase field variable for crack growth) from the stress field, thus using it purely as a concentration field of the fluid and to give rise to the pressure in the cracked region. \\
+\section{Objectives}
+\begin{enumerate}
+\item Implement in MOOSE an arc-length solver for systems of multiple degrees of freedom (x displacement, y displacement, pressure).
+\item Use arclength solver to handle problems in which the constitutive law exhibits softening
+\item Enhance current code to investigate the effects of nonlinear strain on 2d surfaces undergoing uniaxial tension. Namely, a bar with differing open-geometries in the center.
+
+\end{enumerate}
+
+\end{document}

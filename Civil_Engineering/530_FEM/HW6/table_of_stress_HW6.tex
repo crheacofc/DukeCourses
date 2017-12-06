@@ -1,0 +1,27 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Stresses Table}
+\author{Carter Rhea}
+%\date{\today}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\section{Stresses}
+\begin{table}[!h]
+\centering
+\begin{tabular}{lll}
+Mesh Sizing (mm) & Max Stress (MPa) & Minimum Stress (MPa) \\
+2                & 52264            & 37.278               \\
+1                & 57750            & 33.149               \\
+0.5              & 68298            & 46.014              
+\end{tabular}
+\end{table}
+\end{document}  

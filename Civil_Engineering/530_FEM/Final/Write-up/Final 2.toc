@@ -1,0 +1,10 @@
+\contentsline {section}{\tocsection {}{1}{Abstract}}{3}
+\contentsline {section}{\tocsection {}{2}{Introduction to the Advection Diffusion Equation}}{4}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Weak Formulation}}{4}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Error Analysis}}{4}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Stability}}{5}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Galerkin Least Squares}}{5}
+\contentsline {section}{\tocsection {}{3}{Coding}}{7}
+\contentsline {section}{\tocsection {}{4}{Appendices}}{7}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Appendix I}}{7}
+\contentsline {section}{\tocsection {}{}{References}}{8}

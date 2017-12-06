@@ -1,0 +1,41 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{mathtools}
+
+\newcommand{\icol}[1]{% inline column vector
+  \left(\begin{smallmatrix}#1\end{smallmatrix}\right)%
+}
+
+
+\title{Homework 4}
+\author{Carter Rhea}
+\date{\today}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\section{Problem 2}
+\textit{Problem statement:} Show that the element stiffness matrix defined as $[K^e]=\int_{\Omega_e }[B^e]^TE[B^e]dx $ is not invertible by providing one example of a non-zero vector that is in the kernel of $[K^e]$.
+\\
+
+So we want to find a ${v}$ such that $[K^e]{v}=0$. This yields, 
+$$[K^e]{v}=\int_{\Omega_e }[B^e]^TE[B^e]{v}dx  $$ 
+Just looking at the $[B^e]v$ portion we can expand this out to see that we have
+$$[N_1' \dots N_q'][v^e] $$
+where $v$ is a column vector of dimension $q$, so $v=\icol{v_1 \\  \vdotswithin{}\\ v_q}$.
+
+There we get 
+$$[N_1' \dots N_q']\icol{v_1 \\  \vdotswithin{}\\ v_q} =  N_1'v_1 + \dots N_q'v_1$$
+Here we are summing up the $N_i'$s which we calculated earlier to be equal to zero.
+Hence if we allow $v$ to simply be a vector of a single constant $v=\icol{c \\  \vdotswithin{}\\ c}$
+
+Thus we have $c\sum{N_i'} = 0$.
+
+Therefore any $v$ vector that is just constants will be in the kernel of $[K]$.
+\end{document}  
