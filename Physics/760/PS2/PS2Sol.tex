@@ -1,0 +1,163 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Carter Rhea}
+\title{Physics 760 PS 2}
+\begin{document}
+	\maketitle
+	\section{Problem 1}
+	\textbf{Find the sum of the first N terms and discuss convergence}
+	\subsection{Part A}
+	\begin{equation}
+	\nonumber
+		\sum_{n=1}^N ln(\frac{n+1}{n}) = \sum_{n=1}^{N} ln(n+1)-ln(n)
+	\end{equation}
+	Hence we can apply the summation in the textbook (difference method)
+	$$\lim_{n\to\infty}ln(N+1)-ln(0)  = \infty + \infty = \infty $$
+	Therefore our series diverges!
+	
+	\subsection{Part B}
+	\begin{equation}
+		\nonumber
+			\sum_{n=1}^N (-2)^n = \frac{1}{3}((-2)^{n+2}-(-2)^n)
+	\end{equation}
+	Pulling the same trick we see
+	$$\lim_{n\to\infty}\frac{1}{3}((-2)^{N+3}-(-2)^0))) = \lim_{n\to\infty}\frac{1}{3}((-2)^{N+1}-1) $$
+	This is oscillatory.
+	\subsection{Part C}
+	\begin{equation}
+	\nonumber
+	\sum_{n=1}^N (-1)^{n+1}\frac{n}{3^n} = \sum -n\Big(\frac{-1}{3}\Big)^n
+	\end{equation}
+	This is an arithmogeometric series where $a=0 \ , \ n = n \ , \ d = -1 \ , \ r=\sum_{n=1}^\infty \frac{2}{n^2} \frac{-1}{3}$. Hence we can simply use the summation formula for such a series which is:
+	$$S_N = \frac{a-[a+(N-1)d]r^n}{1-r} + \frac{rd(1-r^{N-1})}{(1-r)^2}$$
+	Plugging in our values we get the following...
+	$$\frac{3}{16}[1-(-3)^{-N}]+\frac{3}{4}N(-3)^{-N-1} $$
+	Which clearly converges to $\frac{3}{16}$
+	\newpage
+	
+	\section{Problem 2}
+	\textbf{Prove that $cos(\theta)+ \dots cos(\theta+n\alpha) = \frac{sin(\frac{1}{2}(n+1)\alpha)}{sin(\frac{1}{2}\alpha)}cos(\theta+\frac{1}{2}n\alpha)$}
+	
+	\begin{equation}
+	\nonumber
+		\begin{split}
+			cos(\theta)+ \dots cos(\theta+n\alpha) &= Re\{exp(i(\theta+n\alpha))\}\\
+			&= Re\{exp(i\theta)exp(i\alpha)^{n}\}
+		\end{split}
+	\end{equation}
+	We notice that this is a geometric series. Hence the $n^{th}$ partial sum is the following:
+	\begin{equation}
+	\nonumber
+		\begin{split}
+		Re\Big\{ \frac{e^{(i\theta)}(1-e^{(i\alpha)^{n+1}})}{1-e^{(i\alpha)}} \Big\} &= Re\Big\{ \frac{e^{(i\theta)}e^{(i\frac{(n+1)\alpha }{2})}(e^{(-i\frac{(n+1)\alpha }{2})}-e^{(i\frac{(n+1)\alpha }{2})}}{e^{(i\frac{\alpha }{2})}(e^{(-i\frac{\alpha }{2})}-e^{(i\frac{\alpha }{2})})} \Big\}\\
+		& = cos(\theta+\frac{n\alpha}{2})*\frac{2isin(\frac{n+1}{2}\alpha)}{2isin(\frac{\alpha}{2})}\\
+		&= cos(\theta+\frac{n\alpha}{2})*\frac{sin(\frac{n+1}{2}\alpha)}{sin(\frac{\alpha}{2})}
+		\end{split}
+	\end{equation}
+	Note that we used the beautiful formula:
+	$$sin(\theta) = \frac{1}{2i}(e^{i\theta}-e^{-i\theta}) $$
+	
+	
+	\newpage
+	\section{Problem 3}
+	\textbf{Determine if the series converges}
+	\subsection{Part A}
+	\begin{equation}
+	\nonumber
+		\sum_{n=1}^\infty \frac{2sin(n\theta)}{n(n+1)} \leq \sum \frac{2}{n(n+1)} < \sum \frac{2}{n^2}
+	\end{equation}
+	Note that since $\sum \frac{2}{n^2}$ converges (see next question), $\sum_{n=1}^\infty \frac{2sin(n\theta)}{n(n+1)}$ converges as well by the comparison test!
+	\subsection{Part B}
+	\begin{equation}
+	\nonumber
+	\sum_{n=1}^\infty \frac{2}{n^2} 
+	\end{equation}
+	Let's use the beloved integral test...
+	$$\int_{0}^\infty \frac{2}{n^2}dn = -2n^{-1}\Big|^\infty_1= 2 $$
+	Therefore $\sum_{n=1}^\infty \frac{2}{n^2} $ converges.
+	
+	\subsection{Part C}
+	\begin{equation}
+	\nonumber
+	\sum_{n=1}^\infty \frac{1}{n^\frac{1}{2}} > \sum_{n=1}^\infty \frac{1}{2n} \ \ \text{Diverges by comparison test since $\sum_{n=1}^\infty \frac{1}{2n}$ diverges}
+	\end{equation}
+	
+	\subsection{Part D}
+	\begin{equation}
+	\nonumber
+	\sum_{n=1}^\infty \frac{(-1)^n(n^2+1)^\frac{1}{2}}{nln(n)} 
+	\end{equation}
+	Let's check for convergence using the alternating series test.
+	$$\lim_{x\to\infty} \frac{(n+1)^\frac{1}{2}}{nln(n)} = \frac{\infty}{\infty} \ \ \text{By L'Hopital's Rule} = \lim_{x\to\infty}\frac{\frac{1}{2}(n+1)^\frac{1}{2}}{ln(n)+1} = 0$$
+	Hence the series converges by the convergence test.
+	
+	\subsection{Part E}
+	\begin{equation}
+	\nonumber
+	\sum_{n=1}^\infty \frac{n^p}{n!}
+	\end{equation}
+	Let's check for convergence using the Ratio Test...
+	
+	$$\lim_{x\to\infty}\frac{(n+1)^p}{(n+1)!}\frac{n!}{n^p} = \lim_{x\to\infty}\frac{(n+1)^p}{(n+1)n^p} = 0$$
+	So we converge once again!!
+	
+	\newpage
+	\section{Problem 4}
+	\textbf{Determine if the series converge}
+	\subsection{Part A}
+	$$\sum \frac{x^n}{n+1} $$
+	We will use the ratio test...
+	$$\lim_{x\to\infty}\Big|\frac{x^{n+1}(n+1)}{(n+1)x^n}\Big| = |x|<1 $$
+	Hence it converges for $|x|<1$.
+	
+	\subsection{Part B}
+	$$\sum (sin(x))^n $$
+	Lets try the root test now...
+	$$\lim_{x\to\infty} \sqrt[n]{sin(x)^n} = sin(x) $$
+	Therefore $Convergent \ \forall x \ s.t. \ x\mod(\frac{(n+1)\pi}{2})\neq 0$
+	
+	\subsection{Part C}
+	$$ \sum n^x$$
+	We  can clearly see that if $x\geq-1$ then we have a series larger than the harmonic series and thus by comparison it diverges. Similarly, if $x<-1$,then we can once again note that we have a $p-series$ with $p>1$ and thus we converge.\\
+	Hence we will converge as long as $x<-1$.
+	
+	\subsection{Part D}
+	$$\sum e^{nx} $$
+	ROOT TEST!!!!
+	$$\lim_{x\to\infty}\sqrt[n]{e^{nx}} = e^x < 1 \ \ \text{for convergence} $$
+	Therefore we have $x<0$ for convergence!
+	
+	\subsection{Part E}
+	$$ \sum ln(n)^x $$
+	if $x\geq -1$ we can use the comparison test to compare our series to the divergent $p-series$.\\
+	Or let's just do the integral test:
+	$$\int_1^\infty ln(n)^x dn = x \int_1^\infty ln(n) = \infty \ \ \text{used mathematica}$$
+	Hence our series diverges! 
+
+	\newpage
+	\section{Problem 5}
+	\textbf{For what positive x values does this series converge}\\
+	$$\sum \frac{x^\frac{n}{2}e^{-n}}{n} $$
+	Let's give the ratio test a go...
+	$$\lim_{x\to\infty}\frac{x^\frac{n+1}{2}e^{-(n+1)}n}{(n+1)x^{\frac{n}{2}}e^{-n}} = \lim_{x\to\infty}\frac{x^\frac{1}{2}e^{-1}n}{n+1} = x^\frac{1}{2}e^{-1} $$	
+	Now by the definition of convergence through the ratio test is the following...
+	$$x^\frac{1}{2}e^{-1}<1 $$
+	$$x<e^2$$
+	\newpage
+	\section{Problem 6}
+	\textbf{Solve the following integral}
+	$$\int^{\infty}_0 \frac{\omega^3 d \omega}{e^{\omega/T}-1} $$
+	
+	Lets start by noting the very important definition:
+	$$\zeta (x) = \frac{1}{\Gamma(x)}\int_o^\infty \frac{1}{e^x-1}x^{s-1}dx$$
+	$$\zeta(x) \Gamma(x) = \int_o^\infty \frac{1}{e^x-1}x^{s-1}dx $$
+	
+	For our integral we must first do the following substitution:\\
+	\indent  $u = \frac{w}{T} \rightarrow du=\frac{dW}{T}$.
+	Thus we have the following:
+	$$\int_0^\infty \frac{u^3T^3}{e^u-1}Tdu = T^4\int_0^\infty\frac{u^3}{e^u-1}du = T^4\Gamma(4)\zeta(4) $$
+\end{document}

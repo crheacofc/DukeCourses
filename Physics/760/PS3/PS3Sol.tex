@@ -1,0 +1,142 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Carter Rhea}
+\title{Physics 760 PS 3}
+\begin{document}
+	\maketitle
+	\section{Problem 1}
+	\textbf{Find an analytic function whose imaginary part is $(ycos(y)+xsin(y))e^x$}
+	$$\frac{dv}{dy} = e^x(cos(y)-ysin(y)+xcos(y)) $$
+	By CR equations we have $$\frac{du}{dx} = e^x(cos(y)-ysin(y)+xcos(y))$$ Hence let's integrate wrt to $x$ in order to get $u$...
+	$$u=\frac{\partial u}{\partial x} dc = \int e^x(cos(y)-ysin(y)+xcos(y)) dx = e^x(cos(y)-ysin(y)+cos(y)x-cos(y))+C(y) $$
+	Integrating wrt to $y$ we get...
+	$$\frac{\partial u}{\partial y}  = e^x(sin(y)-ycos(y)-sin(y)-xsin(y)+sin(y))+C'(y)$$
+	Again using CR relations we have
+	$$\frac{\partial v}{\partial x}= - e^x(sin(y)-ycos(y)-xsin(y)) +C'(y) $$
+	But if we differentiate the initial equation we have wrt $x$ we get
+	$$e^x(cos(y)y+xsin(y)-sin(y)) $$
+	Hence by comparison we quickly realize that $C'(y) = 0 \rightarrow C(y) = \ \text{constant}$
+	
+	Therefore $$f(x,y) = e^x(cos(y)-ysin(y)+cos(y)x-cos(y)) + i*((ycos(y)+xsin(y))e^x) $$
+	
+	\pagebreak
+	
+	\section{Problem 2}
+	\textbf{Determine the types of singularities at $z=0$ and $z=\infty$}
+	\subsection{Part A}
+	$$\frac{1}{z-2} $$
+	$$@z=0 \  \ \text{Obviously analytic} $$
+	$$@z=\infty \ \text{we have} \ \frac{1}{\frac{1}{\xi}-2} \rightarrow \frac{1}{\infty} = 0 \ \text{So analytic} $$
+	\subsection{Part B}
+	$$\frac{1+z^3}{z^2} = \frac{1}{z^2}+z $$
+	$$@z=0 \ \text{Second order pole}$$
+	$$@z=\infty \ \rightarrow \xi^2 +\frac{1}{\xi} \ \text{Simple Pole}$$
+	\subsection{Part C}
+	$$sinh(\frac{1}{z}) = \frac{1}{z}+\frac{!}{3!z^3} + \dots $$
+	$$@z=0 \ \text{Clearly Essential Singular Point} $$
+	$$@z=\infty \rightarrow \xi+\frac{!}{3!}\xi^3 + \dots \ \text{hence analytic} $$
+	\subsection{Part D}
+	$$\frac{e^z}{z^3} = \frac{1}{z^3}+\frac{1}{z^2}+\frac{1}{2!z}+\frac{1}{3!} + \frac{z}{4!} + \dots$$
+	$$@z=0 \ \text{Singular pole of order 3}$$
+	$$@z=\infty \ \text{Essential Singular since } \ \xi^3+\xi^2+\frac{1}{2}\xi+\frac{1}{6} + \frac{1}{4!\xi}+\dots$$
+	\subsection{Part E}
+	$$\frac{z^{1/2}}{(1+z^2)^{1/2}}$$
+	$$@z=0 \ \text{Branch point since it makes the value under the root zero}$$
+	$$@z=\infty \rightarrow \frac{\frac{1}{\xi}^{\frac{1}{2}}}{(1+\frac{1}{\xi^2})^{\frac{1}{2}}} \rightarrow 0 \ \text{if} \ \xi\rightarrow 0 \ \text{therefore its a Branch point} $$
+	
+	\section{Problem 3}
+	\textbf{Show that $exp(iaz^2)$ is analytic and then evaluate the following integral:}
+	$$\int_0^{\infty} cos(at^2)dt $$
+	\subsection{Part A}
+	\textbf{Show $e^{iaz^2}$ is analytic}
+	\begin{equation}
+	\nonumber
+	\begin{gathered}
+	e^{iaz^2} = e^{ai(x^2-y^2)-2axy} = e^{-2axy}[cos(a(x^2-y^2))+sin(a(x^2-y^2)]\\
+	\frac{du}{dx} = -2aye^{-2axy}cos(a(x^2-y^2))-e^{-2axy}sin(a(x^2-y^2))*2ax\\
+	\frac{dv}{dy} = -2axe^{-2axy}sin(a(x^2-y^2))-e^{-2axy}cos(a(x^2-y^2))*2ay\\
+	\end{gathered}
+	\end{equation}
+	Since $\frac{du}{dx} == \frac{dv}{dy}$ our function is analytic!
+	\subsection{Part B}
+	Evaluation of integral (I have seen this before in a complex analysis course I took as an undergrad)...\\
+	First notice $e^{-iat^2} = cos(at^2)+isin(at^2)$ by the Euler Formula. Now lets just integrate $e^{-iat^2}$ which is the well-known Gaussian Integral with a constant coefficient on $t$.
+	$$\int_{-\infty}^{\infty} e^{-iat^2} dt = \sqrt{\frac{\pi}{ia}} $$
+	Hence $$\int_{0}^{\infty} e^{-iat^2} dt = \int_{0}^{\infty} cos(at^2)+isin(at^2) dt= \frac{1}{2}\sqrt{\frac{\pi}{ia}} $$
+	It is important to note that $\sqrt{\frac{1}{i}} = \sqrt{i}^{-1} = e^{-i\pi /4 } = \frac{1}{\sqrt{2}}-i\frac{1}{\sqrt{2}}$ by Euler's Formula.
+	Hence we have 
+	$$\int_{0}^{\infty} cos(at^2)+isin(at^2) dt = \sqrt{\frac{\pi}{8a}} - i\sqrt{\frac{\pi}{8a}}  $$
+	Thus we can conclude the following:
+	$$\int_{0}^{\infty} cos(at^2) dt = \sqrt{\frac{\pi}{8a}} $$
+	\section{Problem 4}
+	\subsection{Part A}
+	\textbf{}
+	\subsection{Part B}
+	\textbf{Evaluate the following integral:}
+	$$I=\int_1^\infty \frac{dx}{x(x^2-1)^\frac{1}{2}}$$
+	Clearly we have a branch point a $z=\pm i$. However due to the bounds we only need to worry about $z=i$. 
+	$$2I = \oint_\gamma \frac{dz}{z(z^2-1)^\frac{1}{2}}$$
+	Where $\gamma$ is a contour enclosing our branch point at $z=i$. In order to solve this integral we simply need ot find the residue at the Poles...
+	$$\lim_{z\to 0} z\frac{1}{z(z^2-1)^\frac{1}{2}} = \frac{1}{z(z^2-1)^\frac{1}{2}}$$
+	
+	Now we can plug in our pole and go about our business:
+	$$ \frac{1}{(i^2-1)^\frac{1}{2}} = \frac{1}{2i} $$
+	Thus our answer is $$I = \frac{2\pi i}{2*2 i } = \frac{\pi}{2} $$
+	
+	Using $x=sec(t)$ and mathematica i was able to check my result (as you advised).
+	\section{Problem 5}
+	\textbf{Solve the following:}
+	$$\int_0^\infty \frac{dx}{1+x^n}  $$
+	over a wedge of angle $2pi/n$
+	$$\oint \frac{dz}{1+z^n} = 2\pi i Res\Big(\frac{1}{1+z^n},e^{i\pi/n}\Big) = 2\pi i \frac{1}{e^{-i \pi/n}(e^{i\pi/n}+e^{i\pi - i\pi/n})} $$
+	We can do that last step because we pull out $e^{i\pi/n}$ (which is the singular point) and then take the limit to find the residual!
+	$$2\pi i \frac{1}{e^{-i \pi/n}(e^{i\pi/n}+e^{i\pi - i\pi/n})} = 2\pi i \frac{1}{e^{i\pi/n}-e^{-i\pi/n}} = \frac{2\pi icsc(\frac{\pi}{n})}{2i} = \pi csc\Big(\frac{\pi}{n}\Big) $$
+	 
+	\section{Problem 6}
+	\subsection{Part A}
+	I will be using the residue theorem.
+	\begin{equation}
+	\nonumber
+	\begin{split}
+		2I = \int_{-\infty}^\infty \frac{ln(x)^2}{1+x^2}dx &= 2\pi iRes\Big(\frac{ln(x)^2}{1+x^2},i\Big)\\
+		&= 2\pi i \lim\limits_{z\to i}\frac{ln(z)^2}{(z-i)(z+i)}(z-i)\\ 
+		&= 2\pi i \frac{ln(i)^2}{2i}\\
+		&= \pi ln(i)^2\\
+		&= -\frac{\pi^3}{4}
+	\end{split}
+	\end{equation}
+	Therefore $I = -\frac{\pi^3}{8}$.
+	
+	\subsection{Part B}
+	\text{Demonstrate the following:}
+	$$\int_0^\infty \frac{ln(x)}{1+x^2}dx = 0 $$
+	
+	\begin{equation}
+	\nonumber
+	\begin{split}
+		\int_0^\infty \frac{ln(x)^2}{1+x^2}dx &= \int_0^\infty \frac{(ln(|z|)+i\pi)^2}{1+z^2}dz \\
+		&= \int_0^\infty \frac{ln(|z|)}{z^2+1}dz+2\pi i\int_{0}^{\infty}\frac{ln(z)}{z^2+1} dz -\pi^2\int_0^\infty\frac{1}{z^2+1}dz\\
+		&= -\frac{\pi^3}{4} \ \ \text{By part A}
+	\end{split}
+	\end{equation}
+	
+	Hence we can easily see that $$\int_0^\infty \frac{ln(x)}{x^2+1}dx = 0 $$
+	by simply examining the real and imaginary parts of the previous expression!
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
